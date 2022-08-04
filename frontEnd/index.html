@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="This webpage translates text from English to multiple other languages, back to English." />
+  <meta charset="utf-8">
+  <title>Bad Translation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+</head>
+
+<body>
+  
+<div class="form-container">
+  <form id="toTranslateForm" method="POST" action="https://irt65l5ace.execute-api.us-east-2.amazonaws.com/beta/translate"  >
+    <label for="toTranslate">Text to Translate:</label><br>
+    <input type="text" id="toTranslate" name="toTranslate"><br>
+    <input type="submit" value="Submit">
+  </form>
+  
+</div>
+
+<script>
+</script>
+
+</body>
+</html>

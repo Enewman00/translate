@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "name": "translate",
+  "description": "A project that translates a phrase from English to many different languages, back to English",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enewman00/translate.git"
+  },
+  "author": "Ethan Newman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enewman00/translate/issues"
+  },
+  "homepage": "https://github.com/Enewman00/translate#readme"
+}
